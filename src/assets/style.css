@@ -1,0 +1,186 @@
+/* 
+font-family: 'Recursive', sans-serif;
+font-family: 'Righteous', cursive;
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FB6B6B;
+}
+
+.Tela-inicial{
+    position: absolute;
+    background-color: #FB6B6B;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+/* .Tela-inicial img{
+    width: 136px;
+    height: 161px;
+} */
+
+.Tela-inicial h1{
+    font-family: 'Righteous', cursive;
+    font-size: 36px;
+    color: #FFFFFF;
+    margin-top: 25px;
+}
+
+.Tela-inicial button{
+    color: #D70900;
+    width: 246px;
+    height: 54px;
+    border-radius: 5px;
+    border: solid;
+    border-width: 1px;
+    border-color: #D70900;
+    background-color: #FFFFFF;
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.Tela-principal{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+}
+
+.Logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 45px;
+}
+
+.Logo img{
+    width: 52px;
+    height: 60px;
+}
+
+.Logo h1{
+    font-family: 'Righteous', cursive;
+    font-size: 36px;
+    color: #FFFFFF;
+    margin-left: 25px;
+}
+
+.firstSide {
+    width: 300px;
+    height: 65px;
+    margin-top: 25px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.15);
+}
+
+.firstSide p{
+    font-family: 'Recursive', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #333333;
+    margin-left: 15px;
+}
+
+.firstSide ion-icon{
+    font-size: 26px;
+    font-weight: 700;
+    color: #333333;
+    margin-right: 22px;
+}
+
+.questSide {
+    width: 300px;
+    height: 130px;
+    margin-top: 25px;
+    background-color: #FFFFD4;
+    border-radius: 5px;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.15);
+    /*position: absolute;*/
+}
+
+.questSide p{
+    font-family: 'Recursive', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #333333;
+    margin-top: 18px;
+    margin-left: 15px;
+}
+
+.questSide img{
+    width: 30px;
+    height: 20px;
+    color: #333333;
+    /* position: absolute;
+    right: 15px;
+    bottom: 6px; */
+}
+
+.answSide {
+    width: 300px;
+    height: 130px;
+    margin-top: 25px;
+    background-color: #FFFFD4;
+    border-radius: 5px;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /*position: absolute;*/
+}
+
+.answSide p{
+    font-family: 'Recursive', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #333333;
+    margin-top: 18px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.answSide .buttons{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 6px;
+}
+
+.answSide .buttons .botao{
+    width: 85px;
+    height: 37px;
+    border-radius: 5px;
+    font-family: 'Recursive';
+    font-weight: 400;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    border: none;
+}
+
+.answSide .buttons .nao-lembra{
+    background-color: #FF3030;
+}
+
+.answSide .buttons .quase-lembra{
+    background-color: #FF922E;
+}
+
+.answSide .buttons .sim-lembra{
+    background-color: #2FBE34;
+}
