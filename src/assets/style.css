@@ -194,7 +194,7 @@ main {
 }
 
 .space {
-    height: 100px;
+    height: 180px;
 }
 
 .invisivel {
@@ -214,4 +214,63 @@ main {
 .pergunta-ruim{
     text-decoration: line-through;
     color: #FF3030;
+}
+
+.rodape{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+.rodape .placar{
+    font-family: 'Recursive', sans-serif;
+    font-size: 18px;
+}
+
+.rodape .icones{
+    display: flex;
+    font-size: 26px;
+    font-weight: 700;
+    margin-right: 22px;
+    margin-bottom: 10px;
+}
+
+.rodape .close-circle{
+    color: #FF3030;
+}
+
+.rodape .help-circle{
+    color: #FF922E;
+}
+
+.rodape .checkmark-circle{
+    color: #2FBE34;
+}
+
+.rodape .mensagem{
+    font-family: 'Recursive', sans-serif;
+    font-size: 18px;
+    margin-top: 16px;
+}
+
+.rodape .mensagem2{
+    font-family: 'Recursive', sans-serif;
+    font-size: 18px;
+}
+.rodape .mensagem3{
+    font-family: 'Recursive', sans-serif;
+    font-size: 18px;
+}
+
+.size70{
+    height: 70px;
+}
+
+.size170{
+    height: 170px;
 }
