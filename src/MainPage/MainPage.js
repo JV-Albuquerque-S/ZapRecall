@@ -1,11 +1,10 @@
-import Logo from "./Logo";
-import Flashcards from "./Flashcards";
+// import Logo from "./Logo";
+// import Flashcards from "./Flashcards";
 
-export default function MainPage(){
-    return(
-        <div className="Tela-principal">
-            <Logo />
-            <Flashcards />
-        </div>
-    )
-}
+// export default function MainPage(){
+//     return(
+//         <div className="Tela-principal">
+//             <Logo />
+//         </div>
+//     )
+// }

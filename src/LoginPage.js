@@ -1,5 +1,7 @@
 import imagem from "./assets/images/ZapLogo.png"
 import React from "react"
+import Logo from "./MainPage/Logo";
+import Flashcards from "./MainPage/Flashcards";
 
 export default function LoginPage() {
     const [aparece, setAparece] = React.useState(true);
@@ -11,6 +13,9 @@ export default function LoginPage() {
         </div>
     ) : 
     (
-        <></>
+        <>
+            <Logo />
+            <Flashcards />
+        </>
     )
 }
