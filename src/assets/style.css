@@ -89,7 +89,7 @@ body{
     font-family: 'Recursive', sans-serif;
     font-size: 16px;
     font-weight: 700;
-    color: #333333;
+    /* color: #333333; */
     margin-left: 15px;
 }
 
@@ -107,7 +107,8 @@ body{
     background-color: #FFFFD4;
     border-radius: 5px;
     box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.15);
-    /*position: absolute;*/
+    display: flex;
+    position: relative;
 }
 
 .questSide p{
@@ -123,9 +124,10 @@ body{
     width: 30px;
     height: 20px;
     color: #333333;
-    /* position: absolute;
-    right: 15px;
-    bottom: 6px; */
+    margin-top: 105px;
+    margin-left: 120px;
+    position: absolute;
+    left: 140px;
 }
 
 .answSide {
@@ -183,4 +185,34 @@ body{
 
 .answSide .buttons .sim-lembra{
     background-color: #2FBE34;
+}
+
+main {
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.space {
+    height: 100px;
+}
+
+.invisivel {
+    display: none;
+}
+
+.pergunta-boa{
+    text-decoration: line-through;
+    color: #2FBE34;
+}
+
+.pergunta-media{
+    text-decoration: line-through;
+    color: #FF922E;
+}
+
+.pergunta-ruim{
+    text-decoration: line-through;
+    color: #FF3030;
 }
